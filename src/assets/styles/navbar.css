@@ -1,0 +1,56 @@
+.header {
+  background-image: linear-gradient(
+    126.62deg,
+    rgb(243, 241, 255) 5.1%,
+    rgb(223, 120, 254) 55.74%,
+    rgb(38, 174, 252) 108.45%
+  );
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.heading {
+  font-size: 25px;
+  margin-left: 10px;
+  color: black;
+}
+
+.navbar {
+  list-style: none;
+  display: flex;
+}
+
+.navbar li {
+  margin: 15px;
+  font-size: 18px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar a:hover {
+  color: rgb(65, 65, 244);
+}
+
+/* Media query for screens smaller than 768px */
+@media (max-width: 767px) {
+  .header {
+    flex-direction: column; 
+    align-items: center;
+    text-align: center; 
+  }
+  
+  .navbar {
+    margin-top: 10px; 
+  }
+
+  .navbar li {
+    margin: 10px; 
+    font-size: 20px; 
+  }
+}
+
+

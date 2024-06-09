@@ -1,14 +1,14 @@
 import React from 'react';
-import CourseCard from './CourseCard';
+import CourseCard from '../components/CourseCard'
 
-function CourseList({ courses }) {
-    return (
-        <div>
-            {courses.map(course => (
-                <CourseCard key={course.id} course={course} />
-            ))}
-        </div>
-    );
-}
+const CourseList = ({ courses }) => {
+  return (
+    <div className="course-list">
+      {courses.map(course => (
+        <CourseCard key={course.id} course={course} />
+      ))}
+    </div>
+  );
+};
 
 export default CourseList;
