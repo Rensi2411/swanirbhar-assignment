@@ -41,7 +41,6 @@
   color: #555;
 }
 
-
 .details-dropdown {
   background-color: #f9e6f6;
   border: 1px solid #ddd;
@@ -62,4 +61,122 @@
 
 .view-details-button:hover {
   background-color: #45a049;
+}
+
+/* Media Queries */
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media (max-width: 600px) {
+  .course-card {
+    padding: 15px;
+    margin-bottom: 15px;
+  }
+  
+  .course-title {
+    font-size: 18px;
+  }
+  
+  .course-description {
+    font-size: 14px;
+  }
+  
+  .progress-bar {
+    height: 15px;
+  }
+  
+  .progress-label {
+    font-size: 12px;
+    top: -20px;
+  }
+  
+  .view-details-button {
+    padding: 8px 16px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media (max-width: 768px) {
+  .course-card {
+    padding: 18px;
+    margin-bottom: 18px;
+  }
+  
+  .course-title {
+    font-size: 19px;
+  }
+  
+  .course-description {
+    font-size: 15px;
+  }
+  
+  .progress-bar {
+    height: 18px;
+  }
+  
+  .progress-label {
+    font-size: 13px;
+    top: -22px;
+  }
+  
+  .view-details-button {
+    padding: 9px 18px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media (max-width: 992px) {
+  .course-card {
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .course-title {
+    font-size: 20px;
+  }
+  
+  .course-description {
+    font-size: 16px;
+  }
+  
+  .progress-bar {
+    height: 20px;
+  }
+  
+  .progress-label {
+    font-size: 14px;
+    top: -25px;
+  }
+  
+  .view-details-button {
+    padding: 10px 20px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media (max-width: 1200px) {
+  .course-card {
+    padding: 22px;
+    margin-bottom: 22px;
+  }
+  
+  .course-title {
+    font-size: 21px;
+  }
+  
+  .course-description {
+    font-size: 17px;
+  }
+  
+  .progress-bar {
+    height: 22px;
+  }
+  
+  .progress-label {
+    font-size: 15px;
+    top: -27px;
+  }
+  
+  .view-details-button {
+    padding: 11px 22px;
+  }
 }
